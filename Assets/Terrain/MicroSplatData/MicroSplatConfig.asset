@@ -1,0 +1,429 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5760785f8c0064b44b588ae7fd6fd268, type: 3}
+  m_Name: MicroSplatConfig
+  m_EditorClassIdentifier: 
+  diffuseIsLinear: 0
+  antiTileArray: 0
+  emisMetalArray: 0
+  traxArray: 0
+  textureMode: 1
+  clusterMode: 0
+  packingMode: 0
+  pbrWorkflow: 0
+  hash: 1290404864
+  splatArray: {fileID: 0}
+  diffuseArray: {fileID: 18700000, guid: b32f758fda82be44189835b40bdc7b11, type: 2}
+  normalSAOArray: {fileID: 18700000, guid: b7362a2820656eb4585e94f65e734e3f, type: 2}
+  smoothAOArray: {fileID: 0}
+  specularArray: {fileID: 0}
+  diffuseArray2: {fileID: 0}
+  normalSAOArray2: {fileID: 0}
+  smoothAOArray2: {fileID: 0}
+  specularArray2: {fileID: 0}
+  diffuseArray3: {fileID: 0}
+  normalSAOArray3: {fileID: 0}
+  smoothAOArray3: {fileID: 0}
+  specularArray3: {fileID: 0}
+  emisArray: {fileID: 0}
+  emisArray2: {fileID: 0}
+  emisArray3: {fileID: 0}
+  defaultTextureSettings:
+    diffuseSettings:
+      textureSize: 2048
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    normalSettings:
+      textureSize: 2048
+      compression: 0
+      filterMode: 2
+      Aniso: 1
+    smoothSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    antiTileSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    emissiveSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    specularSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    traxDiffuseSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    traxNormalSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+    decalSplatSettings:
+      textureSize: 1024
+      compression: 0
+      filterMode: 1
+      Aniso: 1
+  platformOverrides: []
+  sourceTextureSize: 0
+  allTextureChannelHeight: 1
+  allTextureChannelSmoothness: 1
+  allTextureChannelAO: 1
+  sourceTextures:
+  - diffuse: {fileID: 2800000, guid: b5eb2bbc0825df54b9be52d027a52f20, type: 3}
+    height: {fileID: 2800000, guid: 809c182cc022a56429c324980d9516c1, type: 3}
+    heightChannel: 2
+    normal: {fileID: 2800000, guid: 294656756b1a3de4a8bafeea220f9fb3, type: 3}
+    smoothness: {fileID: 2800000, guid: 04f62b3604b2013479a7a9771f54d070, type: 3}
+    smoothnessChannel: 3
+    isRoughness: 1
+    ao: {fileID: 2800000, guid: 6930c065118edba4e8158564809252e5, type: 3}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 0
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 2800000, guid: 13c8bd4f33425e14eb851d48ab7ebedd, type: 3}
+    height: {fileID: 2800000, guid: 134e673a50f523d41bd87f43dba34b0c, type: 3}
+    heightChannel: 2
+    normal: {fileID: 2800000, guid: 641f2ba641935db4fa4e707f47bebf48, type: 3}
+    smoothness: {fileID: 2800000, guid: 8c0778aae9c3f8344a083c139b1cc725, type: 3}
+    smoothnessChannel: 3
+    isRoughness: 1
+    ao: {fileID: 2800000, guid: 1aef6f644b8611d40aa98e1a1460c3e6, type: 3}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 0
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 2800000, guid: 3bf9c04b82d71c64b9bfda686e09590b, type: 3}
+    height: {fileID: 2800000, guid: efdf2acac3a5db74dbb5d2a878487538, type: 3}
+    heightChannel: 2
+    normal: {fileID: 2800000, guid: cda3698f0eaeabd498bc7b4998287415, type: 3}
+    smoothness: {fileID: 2800000, guid: 8389fba821cee3c43b521c0ba582b439, type: 3}
+    smoothnessChannel: 3
+    isRoughness: 1
+    ao: {fileID: 2800000, guid: baacc3038a72bad4e9e02ad9482e9a55, type: 3}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 0
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 2800000, guid: d2095ac31423ddc40a98c6474400b59c, type: 3}
+    height: {fileID: 2800000, guid: f94f3270c3d862a45953477117d783dc, type: 3}
+    heightChannel: 2
+    normal: {fileID: 2800000, guid: b7736948ed941e84abb7cc4c001a5601, type: 3}
+    smoothness: {fileID: 2800000, guid: 74650b08a490f8748b11c84d0fde96d7, type: 3}
+    smoothnessChannel: 3
+    isRoughness: 1
+    ao: {fileID: 2800000, guid: 17ef7558b7512b7418e416805258c5be, type: 3}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  sourceTextures2:
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  sourceTextures3:
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
+  - diffuse: {fileID: 0}
+    height: {fileID: 0}
+    heightChannel: 2
+    normal: {fileID: 0}
+    smoothness: {fileID: 0}
+    smoothnessChannel: 3
+    isRoughness: 0
+    ao: {fileID: 0}
+    aoChannel: 1
+    emis: {fileID: 0}
+    metal: {fileID: 0}
+    metalChannel: 1
+    specular: {fileID: 0}
+    noiseNormal: {fileID: 0}
+    detailNoise: {fileID: 0}
+    detailChannel: 1
+    distanceNoise: {fileID: 0}
+    distanceChannel: 1
+    traxDiffuse: {fileID: 0}
+    traxHeight: {fileID: 0}
+    traxHeightChannel: 1
+    traxNormal: {fileID: 0}
+    traxSmoothness: {fileID: 0}
+    traxSmoothnessChannel: 1
+    traxIsRoughness: 0
+    traxAO: {fileID: 0}
+    traxAOChannel: 1
+    splat: {fileID: 0}
